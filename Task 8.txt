@@ -1,0 +1,212 @@
+
+1.package firstprog;
+
+
+
+public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=20,b=30,c=10,d=5;
+		if (a>c);
+		System.out.println("the sum of a and b is greater than sum of c and d");
+        
+	        }
+}
+
+
+2.Even Number:-
+       package firstprog;
+
+   import java.util.Scanner;
+
+    public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner no=new Scanner(System.in);
+		
+		 System.out.println("enter the integer:");
+		int num= no.nextInt();
+		if(num%2==0)
+			System.out.println("even");
+		else
+			System.out.println("odd");
+		
+	}
+
+}
+
+
+3.A to Z:-
+
+      package firstprog;
+
+import java.util.Scanner;
+
+public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char ch;
+	      for(ch = 'A'; ch <= 'Z'; ++ch)
+	      System.out.print(ch + " ");
+		
+	}
+
+}
+
+4.Swaping two numbers:-
+package firstprog;
+
+import java.util.Scanner;
+
+public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int x, y, t;
+	       Scanner sc = new Scanner(System.in);  
+	       System.out.println("Enter the value of X and Y");  
+	       x = sc.nextInt();  
+	       y = sc.nextInt();  
+	    
+	       t = x;  
+	       x = y;  
+	       y = t;  
+	       System.out.println("After swapping: "+x +"   " + y);  
+	       System.out.println( ); 
+		
+	}
+
+}
+
+5.prime or Not:-
+        package firstprog;
+
+import java.util.Scanner;
+
+public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int i,m=0,flag=0;      
+		  int n=3;   
+		  m=n/2;      
+		  if(n==0||n==1){  
+		   System.out.println(n+" is not prime number");      
+		  }else{  
+		   for(i=2;i<=m;i++){      
+		    if(n%i==0){      
+		     System.out.println(n+" is not prime number");      
+		     flag=1;      
+		     break;      
+		    }      
+		   }      
+		   if(flag==0)  { System.out.println(n+" is prime number"); }  
+		  }
+		
+	}
+
+}
+6.Factorial
+
+
+
+package firstprog;
+
+import java.util.Scanner;
+
+public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i,fact=1;  
+		  int number=5;//It is the number to calculate factorial    
+		  for(i=1;i<=number;i++){    
+		      fact=fact*i;    
+		  }    
+		  System.out.println("Factorial of "+number+" is: "+fact);   
+		
+	}
+
+}
+7.String length:-
+
+package firstprog;
+
+import java.util.Scanner;
+
+public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Guvi Geek";  
+        if(str.length()>0) {  
+            System.out.println("String is not empty and length is: "+str.length());  
+        }  
+        str = "";  
+	}
+
+}
+
+8 Print 10 times:-
+      package firstprog;
+
+import java.util.Scanner;
+
+public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 for (int i = 0; i < 10; i++) {
+	            System.out.println("Welcome to Guvi ");
+	        }
+ 
+	}
+
+}
+9.Senior citizen or not:-
+  package firstprog;
+
+import java.util.Scanner;
+
+public class Task8 {
+
+	public static void main(String[] args){
+   int age;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the age of the person");
+        age=sc.nextInt();
+        if(age>=60)
+        {
+            System.out.println("The person is senior citizen");
+        }
+        else
+        {
+            System.out.println("The person not is senior citizen");
+        }
+}
+}
+
+10.count numer of digits :-
+          package firstprog;
+
+import java.util.Scanner;
+
+public class Task8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int count = 0, num = 123456;
+
+	    for (; num != 0; num /= 10, ++count) {
+	    }
+
+	    System.out.println("Number of digits: " + count);
+        }
+	        }
+ 
+
+
